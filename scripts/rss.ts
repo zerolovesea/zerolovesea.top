@@ -6,10 +6,10 @@ import fs from 'fs-extra'
 import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
 
-const DOMAIN = 'https://www.pseudoyu.com'
+const DOMAIN = 'https://zerolovesea.top'
 const AUTHOR = {
-  name: 'pseudoyu',
-  email: 'pseudoyu@connect.hku.hk',
+  name: 'zerolovesea',
+  email: 'zyaztec@gmail.com',
   link: DOMAIN,
 }
 const markdown = MarkdownIt({
@@ -26,15 +26,15 @@ async function buildBlogRSS() {
   const files = await fg(['pages/posts/*.md', 'pages/zh/**/*.md'])
 
   const options = {
-    title: 'pseudoyu',
-    description: 'pseudoyu\'s Blog',
-    id: 'https://www.pseudoyu.com/',
-    link: 'https://www.pseudoyu.com/',
-    copyright: 'CC BY-NC-SA 4.0 2020 © pseudoyu',
+    title: 'Zerolovesea\'s Blog',
+    description: 'zerolovesea\'s Blog',
+    id: 'https://zerolovesea.top/',
+    link: 'https://zerolovesea.top/',
+    copyright: 'CC BY-NC-SA 4.0 2020 © zerolovesea',
     feedLinks: {
-      json: 'https://www.pseudoyu.com/feed.json',
-      atom: 'https://www.pseudoyu.com/feed.atom',
-      rss: 'https://www.pseudoyu.com/feed.xml',
+      json: 'https:/zerolovesea.top/feed.json',
+      atom: 'https://zerolovesea.top/feed.atom',
+      rss: 'https://zerolovesea.top/feed.xml',
     },
   }
   const posts: any[] = (
@@ -81,8 +81,8 @@ async function buildBlogRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
-  options.image = 'https://www.pseudoyu.com/avatar.webp'
-  options.favicon = 'https://www.pseudoyu.com/favicon.ico'
+  options.image = 'https://zerolovesea.top/avatar.webp'
+  options.favicon = 'https://zerolovesea.top/favicon.ico'
 
   const feed = new Feed(options)
 
