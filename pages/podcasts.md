@@ -2,7 +2,6 @@
 title: Podcasts - ZeroLoveSeA 
 display: ''
 art: plum
-items:
 ---
 
 <SubNav />
