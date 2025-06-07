@@ -1,4 +1,4 @@
-**[pseudoyu.com](https://www.pseudoyu.com)**
+**[zerolovesea.top](https://zerolovesea.top)**
 
 my personal website
 
