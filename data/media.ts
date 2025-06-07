@@ -109,11 +109,6 @@ export const series: MediaRecord[] = [
 
 export const game: MediaRecord[] = [
   {
-    name: 'Factorio',
-    creator: 'Wube Software',
-    date: '2013',
-  },
-  {
     name: 'Zelda: Breath of the Wild',
     creator: 'Nintendo',
     date: '2017',
