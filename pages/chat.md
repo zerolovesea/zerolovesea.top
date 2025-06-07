@@ -1,7 +1,7 @@
 ---
-title: 和 zerolovesea 聊聊天！
+title: 和 ZeroLoveSeA 聊聊天！
 display: 聊聊天！
-description: 和 zerolovesea 聊聊天
+description: 和 ZeroLoveSeA 聊聊天
 art: random
 ---
 

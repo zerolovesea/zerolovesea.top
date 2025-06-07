@@ -1,5 +1,5 @@
 ---
-title: Blog - pseudoyu
+title: Blog - ZeroLoveSeA
 display: ''
 art: plum
 ---
