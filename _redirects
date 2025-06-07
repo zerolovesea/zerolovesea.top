@@ -1,0 +1,24 @@
+/zh https://www.zerolovesea.top/posts 301!
+/zh/ https://www.zerolovesea.top/posts 301!
+/zh/search https://www.zerolovesea.top/posts 301!
+/zh/search/ https://www.zerolovesea.top/posts 301!
+/zh/about https://www.zerolovesea.top/about 301!
+/zh/about/ https://www.zerolovesea.top/about 301!
+/zh/links https://www.zerolovesea.top/friends 301!
+/zh/links/ https://www.zerolovesea.top/friends 301!
+/zh/category/* https://www.zerolovesea.top/posts 301!
+/zh/tags/* https://www.zerolovesea.top/posts 301!
+
+/en https://www.zerolovesea.top/posts 301
+/en/* https://www.zerolovesea.top/zh/:splat 301
+
+/de https://www.zerolovesea.top/posts 301
+/de/* https://www.zerolovesea.top/zh/:splat 301
+
+/github https://github.com/zerolovesea 301
+/gh https://github.com/zerolovesea 301
+/sponsor https://github.com/sponsors/zerolovesea 301
+/support https://github.com/sponsors/zerolovesea 301
+/instagram https://instagram.com/zyaztec 301
+/ig https://instagram.com/zyaztec 301
+/*    /index.html   200
