@@ -9,21 +9,27 @@ export interface Photo extends PhotoMate {
 
 // Remote photo URLs
 const remotePhotos = [
-  { name: 'pho_1', url: 'https://images.zerolovesea.top/gallery/gallery32.jpeg' },
-  { name: 'pho_2', url: 'https://images.zerolovesea.top/gallery/gallery42.jpeg' },
-  { name: 'pho_3', url: 'https://images.zerolovesea.top/gallery/gallery35.jpeg' },
-  { name: 'pho_4', url: 'https://images.zerolovesea.top/gallery/gallery73.jpeg' },
-  { name: 'pho_5', url: 'https://images.zerolovesea.top/gallery/gallery15.jpeg' },
-  { name: 'pho_6', url: 'https://images.zerolovesea.top/gallery/gallery38.jpeg' },
-  { name: 'pho_7', url: 'https://images.zerolovesea.top/gallery/gallery10.jpeg' },
-  { name: 'pho_8', url: 'https://images.zerolovesea.top/gallery/gallery13.jpeg' },
-  { name: 'pho_9', url: 'https://images.zerolovesea.top/gallery/gallery14.jpeg' },
-  { name: 'pho_10', url: 'https://images.zerolovesea.top/gallery/gallery17.jpeg' },
-  { name: 'pho_11', url: 'https://images.zerolovesea.top/gallery/gallery29.jpeg' },
-  { name: 'pho_12', url: 'https://images.zerolovesea.top/gallery/gallery66.jpeg' },
-  { name: 'pho_13', url: 'https://images.zerolovesea.top/gallery/gallery31.jpeg' },
-  { name: 'pho_14', url: 'https://images.zerolovesea.top/gallery/gallery39.jpeg' },
-  { name: 'pho_15', url: 'https://images.zerolovesea.top/gallery/gallery78.jpeg' },
+  { name: 'pho_1', url: 'https://images.zerolovesea.top/gallery/gallery1.jpeg' },
+  { name: 'pho_2', url: 'https://images.zerolovesea.top/gallery/gallery2.jpeg' },
+  { name: 'pho_3', url: 'https://images.zerolovesea.top/gallery/gallery3.jpeg' },
+  { name: 'pho_4', url: 'https://images.zerolovesea.top/gallery/gallery4.jpeg' },
+  { name: 'pho_5', url: 'https://images.zerolovesea.top/gallery/gallery5.jpeg' },
+  { name: 'pho_6', url: 'https://images.zerolovesea.top/gallery/gallery6.jpeg' },
+  { name: 'pho_7', url: 'https://images.zerolovesea.top/gallery/gallery7.jpeg' },
+  { name: 'pho_8', url: 'https://images.zerolovesea.top/gallery/gallery8.jpeg' },
+  { name: 'pho_9', url: 'https://images.zerolovesea.top/gallery/gallery9.jpeg' },
+  { name: 'pho_10', url: 'https://images.zerolovesea.top/gallery/gallery10.jpeg' },
+  { name: 'pho_11', url: 'https://images.zerolovesea.top/gallery/gallery11.jpeg' },
+  { name: 'pho_12', url: 'https://images.zerolovesea.top/gallery/gallery12.jpeg' },
+  { name: 'pho_13', url: 'https://images.zerolovesea.top/gallery/gallery13.jpeg' },
+  { name: 'pho_14', url: 'https://images.zerolovesea.top/gallery/gallery14.jpeg' },
+  { name: 'pho_15', url: 'https://images.zerolovesea.top/gallery/gallery15.jpeg' },
+  { name: 'pho_16', url: 'https://images.zerolovesea.top/gallery/gallery16.jpeg' },
+  { name: 'pho_17', url: 'https://images.zerolovesea.top/gallery/gallery17.jpeg' },
+  { name: 'pho_18', url: 'https://images.zerolovesea.top/gallery/gallery18.jpeg' },
+  { name: 'pho_19', url: 'https://images.zerolovesea.top/gallery/gallery19.jpeg' },
+  { name: 'pho_20', url: 'https://images.zerolovesea.top/gallery/gallery20.jpeg' },
+
 ]
 
 // Optional: If you still need to load metadata from local JSON files
