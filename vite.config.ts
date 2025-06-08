@@ -258,6 +258,7 @@ export default defineConfig({
 
   ssgOptions: {
     formatting: 'minify',
+    dirStyle: 'nested',
   },
 })
 

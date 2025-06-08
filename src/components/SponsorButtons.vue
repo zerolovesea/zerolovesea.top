@@ -6,7 +6,7 @@
 
   <p flex="~ gap-2 wrap">
     <a
-      href="https://github.com/sponsors/pseudoyu"
+      href="https://github.com/sponsors/zerolovesea"
       target="_blank"
       class="group btn-rose inline-block"
     >
@@ -15,10 +15,10 @@
         group-hover="i-ph-heart-fill text-rose"
         transition-all duration-200 ease-out
       />
-      Sponsor to support pseudoyu
+      Sponsor to support zerolovesea
     </a>
     <a
-      href="https://afdian.com/a/pseudoyu"
+      href="https://afdian.com/a/zerolovesea"
       target="_blank"
       class="group btn-yellow inline-block"
     >
