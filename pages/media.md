@@ -6,4 +6,7 @@ description: ZeroLoveSeA's Media Consumption
 
 <MediaConsumption />
 
-<div class="op50 mt-10">These are the ones I enjoyed, not exhaustive. And not necessarily recommendations.</div>
+
+<div>
+    <em op50>These are the ones I enjoyed, not exhaustive. And not necessarily recommendations.</em>
+</div>
