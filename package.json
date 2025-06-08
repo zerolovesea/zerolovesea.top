@@ -4,6 +4,7 @@
   "packageManager": "pnpm@10.6.2",
   "scripts": {
     "build": "cross-env NODE_ENV=production vite-ssg build && tsx ./scripts/copy-fonts.ts && tsx ./scripts/rss.ts && cp _redirects dist/_redirects",
+    "dev": "vite --port 3333 --open",
     "preview": "vite preview",
     "lint": "eslint .",
     "compress": "tsx scripts/img-compress-staged.ts",
@@ -38,6 +39,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
+    "@iconify-json/carbon": "^1.2.9",
+    "@iconify-json/ri": "^1.2.5",
+    "@iconify-json/uil": "^1.2.3",
     "@iconify/json": "catalog:dev",
     "@octokit/core": "catalog:dev",
     "@octokit/rest": "catalog:dev",
@@ -54,6 +58,7 @@
     "@types/node": "catalog:types",
     "@types/nprogress": "catalog:types",
     "@types/prompts": "catalog:types",
+    "@unocss/preset-icons": "^66.1.4",
     "@unocss/preset-web-fonts": "catalog:build",
     "@vitejs/plugin-vue": "catalog:build",
     "ansis": "catalog:dev",

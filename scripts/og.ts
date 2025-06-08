@@ -13,7 +13,8 @@ export async function generateOGImage(options: OGImageOptions, outputPath: strin
   const { title, author = 'zerolovesea' } = options
 
   // Using a direct approach with known URLs for Noto Sans SC
-  const arialFont = await fs.readFile('/System/Library/Fonts/Supplemental/Arial.ttf')
+  const pingfangFont = await fs.readFile('/System/Library/Fonts/PingFang.ttc')
+
   const notoSansRegularUrl = 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap'
   const notoSansBoldUrl = 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap'
 
@@ -191,8 +192,8 @@ export async function generateOGImage(options: OGImageOptions, outputPath: strin
       height: 630,
       fonts: [
         {
-          name: 'Arial',
-          data: arialFont,
+          name: 'PingFang SC',
+          data: pingfangFont,
           weight: 400,
           style: 'normal',
         }

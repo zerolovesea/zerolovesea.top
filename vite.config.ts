@@ -49,7 +49,18 @@ export default defineConfig({
     ],
   },
   plugins: [
-    UnoCSS(),
+    UnoCSS(
+      {
+  safelist: [
+  'i-ri-user-heart-line',
+  'i-ri-camera-3-line',
+  'i-ri-chat-1-line',
+  'i-uil-github-alt',
+  'i-carbon-moon',
+  'i-carbon-sun',
+  ],
+}
+    ),
 
     VueRouter({
       extensions: ['.vue', '.md'],

@@ -109,69 +109,104 @@ export const series: MediaRecord[] = [
 
 export const game: MediaRecord[] = [
   {
-    name: 'Zelda: Breath of the Wild',
-    creator: 'Nintendo',
-    date: '2017',
-  },
-  {
-    name: 'Pokémon Sword',
-    creator: 'Game Freak',
-    date: '2019',
-  },
-  {
-    name: 'Pokémon Brilliant Diamond',
-    creator: 'Game Freak',
-    date: '2021',
-  },
-  {
-    name: 'Pokémon Legends Arceus',
-    creator: 'Game Freak',
-    date: '2022',
-  },
-  {
-    name: 'Fire Emblem: Three Houses',
-    creator: 'Intelligent Systems',
-    date: '2019',
-  },
-  {
-    name: 'Life is Strange',
-    creator: 'Dontnod Entertainment',
+    name: '巫师三：狂猎',
+    creator: 'CD Projekt Red',
     date: '2015',
   },
   {
-    name: 'Catherine Full Body',
-    creator: 'Atlus',
+    name: '赛博朋克2077',
+    creator: 'CD Projekt Red',
+    date: '2020',
+  },
+  {
+    name: '最后生还者',
+    creator: 'Naughty Dog',
+    date: '2013',
+  },
+  {
+    name: '最后生还者2',
+    creator: 'Naughty Dog',
+    date: '2020',
+  },
+  {
+    name: '神秘海域4：盗贼遗产',
+    creator: 'Naughty Dog',
+    date: '2016',
+  },
+  {
+    name: '对马岛之魂',
+    creator: 'Sucker Punch Productions',
     date: '2021',
   },
   {
-    name: 'Disco Elysium',
-    creator: 'Zachary Hill',
-    date: '2019',
-  },
-  {
-    name: '13 Sentinels: Aegis Rim',
-    creator: 'Atlus',
-    date: '2021',
-  },
-  {
-    name: 'Octopath Traveler',
-    creator: 'Square Enix',
+    name: '极限竞速：地平线4',
+    creator: 'Playground Games',
     date: '2018',
   },
   {
-    name: 'To the Moon',
-    creator: 'Freebird Games',
+    name: '极限竞速：地平线5',
+    creator: 'Playground Games',
+    date: '2021',
+  },
+  {
+    name: '量子破碎',
+    creator: 'Remedy Entertainment',
+    date: '2016',
+  },
+  {
+    name: '控制',
+    creator: 'Remedy Entertainment',
+    date: '2019',
+  },
+  {
+    name: '光环：士官长合集',
+    creator: '343 Industries',
+    date: '2014',
+  },
+  {
+    name: '光环：无限',
+    creator: '343 Industries',
+    date: '2021',
+  },
+  {
+    name: '冰汽时代',
+    creator: '11 bit studios',
+    date: '2018',
+  },
+  {
+    name: '这是我的战争',
+    creator: '11 bit studios',
+    date: '2014',
+  },
+  {
+    name: '使命召唤4：现代战争',
+    creator: 'Infinity Ward',
+    date: '2007',
+  },
+  {
+    name: '使命召唤6：现代战争2',
+    creator: 'Infinity Ward',
+    date: '2009',
+  },
+  {
+    name: '使命召唤8：现代战争3',
+    creator: 'Infinity Ward',
     date: '2011',
   },
   {
-    name: 'Undertale',
-    creator: 'Toby Fox',
-    date: '2015',
+    name: '使命召唤7：黑色行动',
+    creator: 'Treyarch',
+    date: '2010',
   },
   {
-    name: 'Just Dance 2025',
-    creator: 'Ubisoft',
-    date: '2024',
+    name: '使命召唤12：黑色行动2',
+    creator: 'Treyarch',
+    date: '2012',
+  },
+  {
+    name: '使命召唤：现代战争',
+    creator: 'Infinity Ward',
+    date: '2019',
   },
 ]
 
