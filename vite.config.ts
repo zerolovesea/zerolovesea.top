@@ -182,13 +182,13 @@ export default defineConfig({
           const route = basename(id, '.md')
           if (route === 'index' || frontmatter.image || !frontmatter.title)
             return
-          // const path = `og/${route}.png`
-          // promises.push(
-          //   fs.existsSync(`${id.slice(0, -3)}.png`)
-          //     ? fs.copy(`${id.slice(0, -3)}.png`, `public/${path}`)
-          //     : generateOg(frontmatter.title!.trim(), `public/${path}`),
-          // )
-          // frontmatter.image = `https://www.pseudayu.com/${path}`
+          const path = `og/${route}.png`
+          promises.push(
+            fs.existsSync(`${id.slice(0, -3)}.png`)
+              ? fs.copy(`${id.slice(0, -3)}.png`, `public/${path}`)
+              : generateOg(frontmatter.title!.trim(), `public/${path}`),
+          )
+          frontmatter.image = `https://images.zerolovesea.top/${path}`
         })()
         const head = defaults(frontmatter, options)
         return { head, frontmatter }
