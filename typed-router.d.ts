@@ -61,7 +61,6 @@ declare module 'vue-router/auto-routes' {
     '/zh/2024/01/31/240131-1': RouteRecordInfo<'/zh/2024/01/31/240131-1', '/zh/2024/01/31/240131-1', Record<never, never>, Record<never, never>>,
     '/zh/2024/02/03/240203-1': RouteRecordInfo<'/zh/2024/02/03/240203-1', '/zh/2024/02/03/240203-1', Record<never, never>, Record<never, never>>,
     '/zh/2024/02/07/240207-1': RouteRecordInfo<'/zh/2024/02/07/240207-1', '/zh/2024/02/07/240207-1', Record<never, never>, Record<never, never>>,
-    '/zh/2024/02/09/240209-1': RouteRecordInfo<'/zh/2024/02/09/240209-1', '/zh/2024/02/09/240209-1', Record<never, never>, Record<never, never>>,
     '/zh/2024/02/11/240211-1': RouteRecordInfo<'/zh/2024/02/11/240211-1', '/zh/2024/02/11/240211-1', Record<never, never>, Record<never, never>>,
     '/zh/2024/02/13/240213-1': RouteRecordInfo<'/zh/2024/02/13/240213-1', '/zh/2024/02/13/240213-1', Record<never, never>, Record<never, never>>,
     '/zh/2024/02/24/240924-1': RouteRecordInfo<'/zh/2024/02/24/240924-1', '/zh/2024/02/24/240924-1', Record<never, never>, Record<never, never>>,

@@ -14,7 +14,7 @@ art: random
 
 除开日常的Coding工作，我还对以下内容感兴趣：
 
-- 桌搭：键鼠/高分屏/外设, etc
+- 桌搭：键鼠/显示器/外设, etc
 
 - 主机游戏：PC/PS5/XBOX/Switch
 
