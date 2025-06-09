@@ -54,7 +54,7 @@ const shouldShowComments = computed(() => {
 
   // Show on posts
   if (path.startsWith('/posts/'))
-    return true
+    return false
 
   return false
 })
