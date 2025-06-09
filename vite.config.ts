@@ -28,8 +28,6 @@ import Exclude from 'vite-plugin-optimize-exclude'
 import SVG from 'vite-svg-loader'
 import { generateOGImage } from './scripts/og'
 import { slugify } from './scripts/slugify'
-import MarkdownItMathjax from 'markdown-it-mathjax3'
-
 
 const promises: Promise<any>[] = []
 
@@ -58,6 +56,8 @@ export default defineConfig({
   'i-uil-github-alt',
   'i-carbon-moon',
   'i-carbon-sun',
+  'table-of-contents-anchor',
+  'i-ri-menu-2-fill',
   ],
 }
     ),
