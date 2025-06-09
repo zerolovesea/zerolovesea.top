@@ -503,44 +503,6 @@
 .prose-sm > :last-child {
   margin-bottom: 0;
 }
-.prose .katex {
-  font-size: 1em !important;
-  line-height: 1.2 !important;
-  font-family: KaTeX_Main, Times New Roman, serif !important;
-}
-
-.prose .katex .mord,
-.prose .katex .msub,
-.prose .katex .msup,
-.prose .katex .msubsup,
-.prose .katex .vlist {
-  vertical-align: baseline !important;
-}
-
-.prose .katex .msub,
-.prose .katex .msubsup {
-  transform: translateY(0.15em);
-}
-
-/* 精确缩小下标（仅第二个子元素，即下标内容） */
-.prose .katex .msub > :nth-child(2),
-.prose .katex .msubsup > :nth-child(2) {
-  font-size: 0.5em !important;
-}
-
-/* 缩小所有下标字号 */
-.katex .vlist .scriptstyle,
-.katex .vlist .cramped {
-  font-size: 0.7em !important;
-}
-
-/* 提高下标位置 */
-.katex .vlist {
-  top: 0.05em !important;
-}
-
-/* 可选：让主字体别太大（还原 KaTeX 默认） */
-/* .katex {
-  font-size: 1em !important;
-  line-height: 1.2 !important;
-} */
+.MathJax {
+     display: inline !important;
+   }

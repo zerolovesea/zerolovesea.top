@@ -18,6 +18,18 @@
           document.documentElement.classList.toggle('dark', true)
       })()
     </script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        },
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
     <script data-goatcounter="https://zerolovesea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </head>
   <body class="font-sans text-gray-700 dark:text-gray-200 relative">

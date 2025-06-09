@@ -11,7 +11,6 @@ import anchor from 'markdown-it-anchor'
 import GitHubAlerts from 'markdown-it-github-alerts'
 import LinkAttributes from 'markdown-it-link-attributes'
 import MarkdownItMagicLink from 'markdown-it-magic-link'
-import markdownItKatex from 'markdown-it-katex'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import sharp from 'sharp'
@@ -29,6 +28,7 @@ import Exclude from 'vite-plugin-optimize-exclude'
 import SVG from 'vite-svg-loader'
 import { generateOGImage } from './scripts/og'
 import { slugify } from './scripts/slugify'
+import MarkdownItMathjax from 'markdown-it-mathjax3'
 
 
 const promises: Promise<any>[] = []
@@ -99,6 +99,7 @@ export default defineConfig({
         quotes: '""\'\'',
       },
       async markdownItSetup(md) {
+        // md.use(MarkdownItMathjax)
         md.use(await MarkdownItShiki({
           themes: {
             dark: 'vitesse-dark',
@@ -184,7 +185,6 @@ export default defineConfig({
         })
 
         md.use(GitHubAlerts)
-        md.use(markdownItKatex)
       },
       frontmatterPreprocess(frontmatter, options, id, defaults) {
         (() => {

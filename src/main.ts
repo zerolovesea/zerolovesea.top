@@ -8,7 +8,6 @@ import { setupRouterScroller } from 'vue-router-better-scroller'
 import { routes } from 'vue-router/auto-routes'
 import App from './App.vue'
 import '@unocss/reset/tailwind.css'
-import 'katex/dist/katex.min.css'
 import 'floating-vue/dist/style.css'
 
 import 'markdown-it-github-alerts/styles/github-colors-light.css'
@@ -48,7 +47,14 @@ export const createApp = ViteSSG(
         },
         behavior: 'auto',
       })
-
+      router.afterEach(() => {
+        // 等待 DOM 更新完成再触发渲染
+        setTimeout(() => {
+          if (window.MathJax) {
+            window.MathJax.typesetPromise?.()
+          }
+        }, 0)
+      })
       router.beforeEach(() => {
         NProgress.start()
       })
