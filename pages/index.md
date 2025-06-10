@@ -78,6 +78,7 @@ Find me on
   <a href="https://space.bilibili.com/42997905" target="_blank"><span op75 i-simple-icons-bilibili /> 哔哩哔哩</a>
   <a href="https://www.youtube.com/@zerolovesea" target="_blank"><span op75 i-simple-icons-youtube /> YouTube</a>
   <a href="https://www.instagram.com/zyaztec" target="_blank"><span op75 i-simple-icons-instagram /> Instagram</a>
+  <a href="https://x.com/zyaztec" target="_blank"><span op75 i-simple-icons-twitter /> Twitter</a>
 </p>
 
 Or mail me at <span font-mono>zyaztec@gmail.com</span>
