@@ -5,10 +5,8 @@ image: https://images.zerolovesea.com/og.png
 art: random
 ---
 
-
-## ✋ Hi，我是 [ZeroLoveSeA](https://www.zerolovesea.top)
-
-生于江南水乡，旅西九年，目前供职于苏州/合肥一科技公司{IFLYTEK}，从事精准营销，用户增长，风控系统等相关工作。
+## ✋ 关于我
+生于江南水乡，旅西9年，目前供职于苏州/合肥一科技公司{IFLYTEK}，从事精准营销，用户增长等相关工作。
 
 我的博客内容主要聚焦于机器学习/深度学习，推荐算法，语言模型，编程和开源项目。除此之外，我还会在个人站点内以随笔的方式记录我的日常生活。
 
@@ -19,6 +17,21 @@ art: random
 - 主机游戏：PC/PS5/XBOX/Switch
 
 - 影视：恐怖片 不过因为不敢看 我一般选择听恐怖片
+
+
+## 📚 关于经历
+
+<details>
+<summary>如果你对我的经历感兴趣的话，不妨点击看看</summary>
+
+- 7/2024 - now 数据建模工程师，[iFLYTEK Co., Ltd](https://global.iflytek.com/en/)(SuZhou)
+- 1/2023 - 7/2024 机器学习工程师, [Leansight Tech](https://www.leansight.cn/) (SuZhou)
+- 6/2023 - 10/2023 机器学习工程师(Intern), XiYuan Tech
+- 9/2022 - 9/2023 大数据与数据科学(硕士), [University Complutense of Madrid](https://ucm.es) (Spain)
+- 9/2020 - 1/2022 信息科学与图情管理(硕士), [University Complutense of Madrid](https://ucm.es) (Spain)
+- 9/2015 - 6/2020 信息科学(学士), [University Complutense of Madrid](https://ucm.es) (Spain)
+- 9/2014- 6/2015 计算机科学, [University Complutense of Madrid](https://ucm.es) (Spain)
+</details>
 
 ---
 
@@ -36,7 +49,7 @@ I live in Suzhou now, if you are around, please reach me out let's have some cof
 
 这个博客站点用来存放我的一些日常学习记录，生活心得和随笔。最早的版本始于2023年末，使用Hexo框架构建静态页面，并托管于Github。由于美观和自定义方面的考量，于2025年中开始向[antfu](https://github.com/antfu/antfu.me)开发的基于Vue3的个人博客框架迁移。
 
-**ZeroLoveSeA**的名字最早来源于小学打CS起源时，一个同学起的名字，并无他意。
+**ZeroLoveSeA**的名字最早来源于小学打CS起源时起的游戏账户，别无他意。
 
 ## 栈
 

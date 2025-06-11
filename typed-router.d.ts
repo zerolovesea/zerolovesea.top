@@ -121,5 +121,6 @@ declare module 'vue-router/auto-routes' {
     '/zh/2025/05/25/250525-1': RouteRecordInfo<'/zh/2025/05/25/250525-1', '/zh/2025/05/25/250525-1', Record<never, never>, Record<never, never>>,
     '/zh/2025/05/28/250528-1': RouteRecordInfo<'/zh/2025/05/28/250528-1', '/zh/2025/05/28/250528-1', Record<never, never>, Record<never, never>>,
     '/zh/2025/06/01/250601-1': RouteRecordInfo<'/zh/2025/06/01/250601-1', '/zh/2025/06/01/250601-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/06/11/250611-1': RouteRecordInfo<'/zh/2025/06/11/250611-1', '/zh/2025/06/11/250611-1', Record<never, never>, Record<never, never>>,
   }
 }
