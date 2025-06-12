@@ -1,5 +1,5 @@
 ---
-title: ZeroLoveSeA
+title: 我不是算法工程师
 description: ZeroLoveSeA's Portfolio
 image: https://images.zerolovesea.com/og.png
 art: random
@@ -9,6 +9,8 @@ art: random
 生于江南水乡，旅西9年，目前供职于苏州/合肥一科技公司{IFLYTEK}，从事精准营销，用户增长等相关工作。
 
 我的博客内容主要聚焦于机器学习/深度学习，推荐算法，语言模型，编程和开源项目。除此之外，我还会在个人站点内以随笔的方式记录我的日常生活。
+
+> 如果愿意的话，你可以尊称我为<b important-text-hex-D777B1>马德里西语霸王</b> 哈哈哈
 
 除开日常的Coding工作，我还对以下内容感兴趣：
 
@@ -37,7 +39,7 @@ art: random
 
 最后，我目前住在苏州。如果你在附近，对开源项目/机器学习/Kaggle组队/或者闲聊 感兴趣，欢迎随时联系我——一起喝咖啡或者一起工作！
 
-Hey, I am ZeroLoveSeA, a Machine Learning Engineer enthusiastic about Rec Sys, Credit Risk, NLP and RAG Tech. 
+Hey, I am Yang Zhou, a Machine Learning Engineer enthusiastic about Rec Sys, Credit Risk, NLP and RAG Tech. 
 
 I write [blog posts](/posts) about coding, machine learning/deep learning, open source, tutorials, etc.
 
@@ -49,9 +51,7 @@ I live in Suzhou now, if you are around, please reach me out let's have some cof
 
 这个博客站点用来存放我的一些日常学习记录，生活心得和随笔。最早的版本始于2023年末，使用Hexo框架构建静态页面，并托管于Github。由于美观和自定义方面的考量，于2025年中开始向[antfu](https://github.com/antfu/antfu.me)开发的基于Vue3的个人博客框架迁移。
 
-**ZeroLoveSeA**的名字最早来源于小学打CS起源时起的游戏账户，别无他意。
-
-## 栈
+## ⌨️ 关于技术债
 
 >（`?`了解，`~`熟悉，`+`掌握，`++`熟练，`*`精通）
 
