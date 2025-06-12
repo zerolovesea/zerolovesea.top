@@ -32,11 +32,11 @@ const { y: scroll } = useWindowScroll()
       <div class="right" print:op0>
         <RouterLink to="/posts" title="Blog">
           <span class="lt-md:hidden">Blog</span>
-          <div i-ri-article-line md:hidden />
+          <div i-ri-article-line class=md:hidden />
         </RouterLink>
-        <RouterLink to="/ideas" class="lt-md:hidden" title="Talks">
+        <RouterLink to="/ideas" title="Ideas">
           <span class="lt-md:hidden">Ideas</span>
-          <div i-ri-mic-line class="md:hidden" />
+          <div i-ri-user-heart-line class="md:hidden" />
         </RouterLink>
         <RouterLink to="/projects" title="Projects">
           <span class="lt-md:hidden">Projects</span>
@@ -53,9 +53,6 @@ const { y: scroll } = useWindowScroll()
         <RouterLink to="/chat" title="Let's Chat">
           <span class="lt-md:hidden">Let's Chat</span>
           <div i-ri-chat-1-line class="md:hidden" />
-        </RouterLink>
-        <RouterLink to="/friends" class="lt-md:hidden" title="Friends">
-          <div i-ri-user-heart-line />
         </RouterLink>
         <RouterLink to="/photos" title="Photos">
           <div i-ri-camera-3-line />

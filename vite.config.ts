@@ -58,6 +58,7 @@ export default defineConfig({
   'i-carbon-sun',
   'table-of-contents-anchor',
   'i-ri-menu-2-fill',
+  'i-ri-heart-line'
   ],
 }
     ),
