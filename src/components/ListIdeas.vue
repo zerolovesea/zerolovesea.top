@@ -44,7 +44,7 @@ function formatDate(date: string): string {
     <li
       v-for="(idea, idx) in state.ideas"
       :key="idx"
-      class="group mb-8 mt-[50px] flex flex-col gap-0"
+      class="group mb-8 mt-[50px] flex flex-col gap-0 ml-[-20px]"
       style="opacity: 1; transform: none;"
     >
       <div class="flex gap-4 items-center">

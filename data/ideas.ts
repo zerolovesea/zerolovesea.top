@@ -21,7 +21,7 @@ export const ideas: IdeaRecord[] = [
   {
     author: '马德里西语霸王',
     avatar: 'https://avatars.githubusercontent.com/u/59469010?v=4',
-    content: '新版博客上线辽 使用了Vue3 + TailwindCSS + UNOCSS <b important-text-hex-D777B1>以及最最重要的ChatGPT</b>！😋',
+    content: '新版博客上线辽 使用了Vue3 + TailwindCSS + UNOCSS <b style="color:#D777B1;">以及最最重要的ChatGPT</b>！😋',
     date: '2025-06-10 18:56', 
   },
 ]
