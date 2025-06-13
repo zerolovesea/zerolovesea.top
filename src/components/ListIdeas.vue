@@ -40,28 +40,36 @@ function formatDate(date: string): string {
 </script>
 
 <template>
-  <ul>
+  <ul class="list-none">
     <li
       v-for="(idea, idx) in state.ideas"
       :key="idx"
-      class="group mb-8 mt-[50px] flex flex-col gap-2"
+      class="group mb-8 mt-[50px] flex flex-col gap-0"
       style="opacity: 1; transform: none;"
     >
-  
-      <div class="flex gap-4">
+      <div class="flex gap-4 items-center">
+
+        <div class="relative">
+          <img
+            :src="idea.avatar"
+            alt="avatar"
+            class="avatar"
+          />
+        </div>
         <div class="flex flex-row items-center gap-2 text-base">
           <span class="font-semibold whitespace-nowrap">{{ idea.author }}</span>
           <span class="text-sm text-zinc-500 whitespace-nowrap">{{ formatDate(idea.date) }}</span>
         </div>
       </div>
-      <div class="min-w-0 max-w-full mt-0 pl-4 md:pl-14">
+
+      <div class="min-w-0 max-w-full pl-4 md:pl-14" style="margin-top: -20px;">
         <div class="relative w-full min-w-0">
           <div
             class="relative inline-block rounded-xl p-3 py-0 text-zinc-800 dark:text-zinc-200 rounded-tl-sm bg-zinc-600/5 dark:bg-zinc-500/20 max-w-full overflow-auto"
-            style="margin-top: 15px; margin-left: -40px;"
+            style="margin-top: 0px; margin-left: 5px;"
             >
             <div class="markdown_md__SEzck text-base">
-              <p>{{ idea.content }}</p>
+              <p >{{ idea.content }}</p>
             </div>
           </div>
         </div>
@@ -71,5 +79,16 @@ function formatDate(date: string): string {
 </template>
 
 <style scoped>
-/* Add any additional styles here */
+li.group::before {
+  content: none !important;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 1px solid transparent;
+}
 </style>
