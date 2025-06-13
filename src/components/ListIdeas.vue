@@ -25,11 +25,11 @@ function formatDate(date: string): string {
   }
 
   if (ideaDate.isSame(now.subtract(1, 'day'), 'day')) {
-    return '昨天'
+    return `昨天 ${ideaDate.format('HH:mm')}`
   }
 
   if (ideaDate.isSame(now.subtract(2, 'day'), 'day')) {
-    return '前天'
+    return `前天 ${ideaDate.format('HH:mm')}`
   }
 
   const diffDays = now.diff(ideaDate, 'day')
@@ -61,15 +61,13 @@ function formatDate(date: string): string {
           <span class="text-sm text-zinc-500 whitespace-nowrap">{{ formatDate(idea.date) }}</span>
         </div>
       </div>
-
-      <div class="min-w-0 max-w-full pl-4 md:pl-14" style="margin-top: -20px;">
+      <div class="min-w-0 max-w-full pl-14 md:pl-14" style="margin-top: -20px;">
         <div class="relative w-full min-w-0">
           <div
             class="relative inline-block rounded-xl p-3 py-0 text-zinc-800 dark:text-zinc-200 rounded-tl-sm bg-zinc-600/5 dark:bg-zinc-500/20 max-w-full overflow-auto"
-            style="margin-top: 0px; margin-left: 5px;"
-            >
+          >
             <div class="markdown_md__SEzck text-base">
-              <p >{{ idea.content }}</p>
+              <p v-html="idea.content"></p>
             </div>
           </div>
         </div>
