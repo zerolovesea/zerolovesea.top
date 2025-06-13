@@ -49,7 +49,7 @@ I live in Suzhou now, if you are around, please reach me out let's have some cof
 
 ## 🎓 关于网站
 
-这个博客站点用来存放我的一些日常学习记录，生活心得和随笔。最早的版本始于2023年末，使用Hexo框架构建静态页面，并托管于Github。由于美观和自定义方面的考量，于2025年中开始向[antfu](https://github.com/antfu/antfu.me)开发的基于Vue3的个人博客框架迁移。
+这个博客站点用来存放我的一些日常学习记录，生活心得和随笔。最早的版本始于2023年末，使用Hexo框架构建静态页面，并托管于Github。由于美观和自定义方面的考量，于2025年中开始向[antfu](https://github.com/antfu/antfu.me)开发的基于Vue3的个人博客框架迁移，并在此基础上进行了一些自定义魔改。
 
 ## ⌨️ 关于技术债
 
