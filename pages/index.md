@@ -63,12 +63,11 @@ I live in Suzhou now, if you are around, please reach me out let's have some cof
 - {SQL} ++
 - {SCALA} +
 - {JavaScript} ?
-- {TypeScript} ?
 - {Markdown} *
 - {Swift} ?
 
 
-**技术栈**
+**框架**
 
 - {sklearn} +
 - {Pyspark} ++
