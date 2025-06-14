@@ -10,8 +10,9 @@ dayjs.extend(relativeTime)
 // 将 ideas 转换为响应式数据
 const state = reactive({
   ideas: ideas.map(idea => ({
+    avatar: 'https://avatars.githubusercontent.com/u/59469010?v=4', // 默认值
     ...idea,
-    comments: [] // 为每个想法添加评论数组
+    comments: [],
   })),
 })
 
