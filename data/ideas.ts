@@ -9,11 +9,16 @@ export interface IdeaRecord {
 export const ideas: IdeaRecord[] = [
   {
     author: '马德里西语霸王',
-    content: '下了一周的雨 今天打球被暴虐 🤤',
-    date: '2025-06-13 21:44', 
+    content: 'alist连不上阿里云盘了 结果发现是项目卖给无良公司了 裂开',
+    date: '2025-06-15 20:12', 
     images: [
       'https://images.zerolovesea.top/blog/250615-1.png',
     ],
+  },
+  {
+    author: '马德里西语霸王',
+    content: '下了一周的雨 今天打球被暴虐 🤤',
+    date: '2025-06-13 21:44', 
   },
   {
     author: '马德里西语霸王',
