@@ -3,6 +3,7 @@ export interface IdeaRecord {
   avatar?: string
   content: string
   date: string 
+  images?: string[]
 }
 
 export const ideas: IdeaRecord[] = [
@@ -10,6 +11,9 @@ export const ideas: IdeaRecord[] = [
     author: '马德里西语霸王',
     content: '下了一周的雨 今天打球被暴虐 🤤',
     date: '2025-06-13 21:44', 
+    images: [
+      'https://images.zerolovesea.top/blog/250615-1.png',
+    ],
   },
   {
     author: '马德里西语霸王',

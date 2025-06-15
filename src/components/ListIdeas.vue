@@ -71,6 +71,19 @@ function formatDate(date: string): string {
               <p v-html="idea.content"></p>
             </div>
           </div>
+          <!-- 图片 -->
+          <div
+            v-if="idea.images && idea.images.length"
+            class="pl-14 md:pl-14 grid grid-cols-3 gap-x-6 gap-y-1 -ml-14 -mt-4 "
+          >
+            <img
+              v-for="(img, i) in idea.images"
+              :key="i"
+              :src="img"
+              alt="idea image"
+              class="rounded-lg w-[180px] h-[140px] object-cover "
+            />
+          </div>
         </div>
       </div>
     </li>
