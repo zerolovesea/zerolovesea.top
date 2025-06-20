@@ -13,6 +13,7 @@ const state = reactive({
     avatar: 'https://avatars.githubusercontent.com/u/59469010?v=4', // 默认值
     ...idea,
     comments: [],
+    content: idea.content.replace(/\n/g, '<br>'),
   })),
 })
 
@@ -74,14 +75,15 @@ function formatDate(date: string): string {
           <!-- 图片 -->
           <div
             v-if="idea.images && idea.images.length"
-            class="pl-14 md:pl-14 grid grid-cols-3 gap-x-6 gap-y-1 -ml-14 -mt-4 "
+            class="pl-14 md:pl-14 grid grid-cols-3 gap-x-4 gap-y-0 -ml-14 -mt-4"
           >
             <img
               v-for="(img, i) in idea.images"
               :key="i"
               :src="img"
               alt="idea image"
-              class="rounded-lg w-[180px] h-[140px] object-cover "
+              class="rounded-lg w-[180px] h-[140px] object-cover my-0"
+              style="margin-bottom: 0;"
             />
           </div>
         </div>
