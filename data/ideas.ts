@@ -9,6 +9,14 @@ export interface IdeaRecord {
 export const ideas: IdeaRecord[] = [
   {
     author: '马德里西语霸王',
+    content: '疲惫烦躁的一周 ',
+    date: '2025-06-21 21:44',
+    images: [
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1200px-Googleplex_HQ_%28cropped%29.jpg',
+    ],
+  },
+  {
+    author: '马德里西语霸王',
     content: 'alist连不上阿里云盘了 结果发现是项目卖给无良公司了 裂开',
     date: '2025-06-15 20:12', 
     images: [

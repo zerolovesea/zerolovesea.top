@@ -75,7 +75,7 @@ function formatDate(date: string): string {
           <!-- 图片 -->
           <div
             v-if="idea.images && idea.images.length"
-            class="pl-14 md:pl-14 grid grid-cols-3 gap-x-4 gap-y-0 -ml-14 -mt-4"
+            class="pl-14 md:pl-14 grid grid-cols-3 gap-x-4 gap-y-0 -ml-14 -mt-8"
           >
             <img
               v-for="(img, i) in idea.images"
