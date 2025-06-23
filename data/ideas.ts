@@ -12,7 +12,7 @@ export const ideas: IdeaRecord[] = [
     content: '疲惫烦躁的一周 ',
     date: '2025-06-21 21:44',
     images: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1200px-Googleplex_HQ_%28cropped%29.jpg',
+      'https://images.zerolovesea.top/blog/250621-1.jpeg',
     ],
   },
   {
