@@ -49,15 +49,32 @@ html:not(.dark) .shiki span {
   margin: 0.5em 0;
 }
 
-.prose img {
-  width: 100%;
+
+/* 图片并排显示：连续图片自动分组，每行最多4张 */
+.prose p:has(img:only-child) {
+  display: inline;
+}
+.prose p > img {
+  display: inline-block;
+  width: 22%;
+  max-width: 180px;
+  margin: 0.5em 1% 0.5em 0;
+  vertical-align: middle;
+  --uno: shadow rounded-lg cursor-pointer transition-transform duration-200;
+  transform: scale(1);
+  object-fit: cover;
+}
+.prose p > img:nth-child(4n) {
+  margin-right: 0;
 }
 
-.prose p > img {
+/* 单独一张图片仍居中显示 */
+.prose p:only-child > img:only-child {
+  display: block;
+  margin: 2.6em auto;
   width: 100%;
-  --uno: shadow rounded-lg;
+  max-width: 600px;
   transform: scale(1.05);
-  margin: 2.6em 0;
 }
 
 .prose {

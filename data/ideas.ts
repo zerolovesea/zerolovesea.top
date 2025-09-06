@@ -9,6 +9,14 @@ export interface IdeaRecord {
 export const ideas: IdeaRecord[] = [
   {
     author: '马德里西语霸王',
+    content: "公司里来了一只小猫🐱",
+    date: '2025-09-06 18:15',
+    images: [
+      'https://images.zerolovesea.top/blog/250906-16.jpeg',
+    ],
+  },
+  {
+    author: '马德里西语霸王',
     content: "最近入手了Switch2，电子ED的症状暂时得到了缓解。三周已经打通了宝可梦紫，接下来潜水员戴夫也快通了，同步还在打路易吉洋馆。",
     date: '2025-08-02 11:44',
   },
