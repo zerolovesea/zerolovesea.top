@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="revisit-after" content="7 days" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="icon" href="/avatar.webp" type="image/webp" />
     <link rel="alternate" type="application/rss+xml" title="ZeroLoveSeA's Blog" href="/feed.xml" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <title>zerolovesea</title>
@@ -21,17 +21,23 @@
     <script>
       window.MathJax = {
         tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ],
+          displayMath: [
+            ['$$', '$$'],
+            ['\\[', '\\]'],
+          ],
         },
         options: {
           skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         },
-      chtml: {
-        displayAlign: 'center', // 设置公式居中对齐
-        displayIndent: '0',    // 设置公式缩进
-        linebreaks: { automatic: true }, // 启用自动换行
-      },
+        chtml: {
+          displayAlign: 'center', // 设置公式居中对齐
+          displayIndent: '0', // 设置公式缩进
+          linebreaks: { automatic: true }, // 启用自动换行
+        },
       }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
@@ -42,4 +48,4 @@
     <script type="module" src="/src/main.ts"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
-  </html>
+</html>

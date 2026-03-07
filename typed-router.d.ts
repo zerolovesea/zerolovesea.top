@@ -127,5 +127,13 @@ declare module 'vue-router/auto-routes' {
     '/zh/2025/06/22/250622-2': RouteRecordInfo<'/zh/2025/06/22/250622-2', '/zh/2025/06/22/250622-2', Record<never, never>, Record<never, never>>,
     '/zh/2025/08/02/250802-1': RouteRecordInfo<'/zh/2025/08/02/250802-1', '/zh/2025/08/02/250802-1', Record<never, never>, Record<never, never>>,
     '/zh/2025/09/06/250906-1': RouteRecordInfo<'/zh/2025/09/06/250906-1', '/zh/2025/09/06/250906-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/09/14/250914-1': RouteRecordInfo<'/zh/2025/09/14/250914-1', '/zh/2025/09/14/250914-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/09/14/250914-2': RouteRecordInfo<'/zh/2025/09/14/250914-2', '/zh/2025/09/14/250914-2', Record<never, never>, Record<never, never>>,
+    '/zh/2025/09/20/250920-1': RouteRecordInfo<'/zh/2025/09/20/250920-1', '/zh/2025/09/20/250920-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/09/21/250921-1': RouteRecordInfo<'/zh/2025/09/21/250921-1', '/zh/2025/09/21/250921-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/11/30/251130-1': RouteRecordInfo<'/zh/2025/11/30/251130-1', '/zh/2025/11/30/251130-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/12/21/251221-1': RouteRecordInfo<'/zh/2025/12/21/251221-1', '/zh/2025/12/21/251221-1', Record<never, never>, Record<never, never>>,
+    '/zh/2025/12/31/251231-1': RouteRecordInfo<'/zh/2025/12/31/251231-1', '/zh/2025/12/31/251231-1', Record<never, never>, Record<never, never>>,
+    '/zh/2026/01/250103-1': RouteRecordInfo<'/zh/2026/01/250103-1', '/zh/2026/01/250103-1', Record<never, never>, Record<never, never>>,
   }
 }

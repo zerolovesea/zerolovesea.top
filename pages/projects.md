@@ -6,12 +6,12 @@ wrapperClass: 'text-center'
 art: dots
 projects:
   Current Focus:
-    - name: 'MLPiplineLib'
-      link: 
-      desc: 'An integrated Python library for data preprocessing and machine learning algorithms, supporting both Python and PySpark.'
-    - name: 'RecLib'
-      link: 
-      desc: 'An integrated Python library implementing various recommendation algorithms, supporting industry-standard machine learning methods such as SVD, CF, NCF, MMOE, and PLE.'
+    - name: 'AI DASH V2'
+      link:
+      desc: 'A React + Python data analytics reporting platform supporting multi-dimensional analysis, AI chat Q&A, and interactive visualization charts.'
+    - name: 'NextRec'
+      link:
+      desc: 'A unified, efficient, and extensible PyTorch-based recommendation library, supporting DIEN, PLE, POSO, PEPNET, etc.'
 
   ML&Competitions:
     - name: 'Kaggle Notebooks'
@@ -28,10 +28,10 @@ projects:
 
   Applications:
     - name: 'Photo Cleaner'
-      link: 
+      link:
       desc: 'A photo album cleaning tool for iOS based on Swift.'
     - name: 'AI Dash'
-      link: 
+      link:
       desc: 'A dashboard platform based on Streamlit, integrating data retrieval, visualization tools, and LLM.'
     - name: 'Master Chow'
       link: 'https://github.com/zerolovesea/master-chow'
