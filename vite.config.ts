@@ -1,5 +1,4 @@
-import { Buffer } from 'node:buffer'
-import { basename, dirname, resolve } from 'node:path'
+import { resolve } from 'node:path'
 import MarkdownItShiki from '@shikijs/markdown-it'
 import { transformerNotationDiff, transformerNotationHighlight, transformerNotationWordHighlight } from '@shikijs/transformers'
 import { rendererRich, transformerTwoslash } from '@shikijs/twoslash'
@@ -13,7 +12,6 @@ import LinkAttributes from 'markdown-it-link-attributes'
 import MarkdownItMagicLink from 'markdown-it-magic-link'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
-import sharp from 'sharp'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import IconsResolver from 'unplugin-icons/resolver'
@@ -26,10 +24,7 @@ import { defineConfig } from 'vite'
 import Inspect from 'vite-plugin-inspect'
 import Exclude from 'vite-plugin-optimize-exclude'
 import SVG from 'vite-svg-loader'
-import { generateOGImage } from './scripts/og'
 import { slugify } from './scripts/slugify'
-
-const promises: Promise<any>[] = []
 
 export default defineConfig({
   resolve: {
@@ -49,18 +44,18 @@ export default defineConfig({
   plugins: [
     UnoCSS(
       {
-  safelist: [
-  'i-ri-user-heart-line',
-  'i-ri-camera-3-line',
-  'i-ri-chat-1-line',
-  'i-uil-github-alt',
-  'i-carbon-moon',
-  'i-carbon-sun',
-  'table-of-contents-anchor',
-  'i-ri-menu-2-fill',
-  'i-ri-heart-line'
-  ],
-}
+        safelist: [
+          'i-ri-user-heart-line',
+          'i-ri-camera-3-line',
+          'i-ri-chat-1-line',
+          'i-uil-github-alt',
+          'i-carbon-moon',
+          'i-carbon-sun',
+          'table-of-contents-anchor',
+          'i-ri-menu-2-fill',
+          'i-ri-heart-line',
+        ],
+      },
     ),
 
     VueRouter({
@@ -133,7 +128,7 @@ export default defineConfig({
             target: '_blank',
             rel: 'noopener',
           },
-          
+
         })
 
         md.use(TOC, {
@@ -157,7 +152,7 @@ export default defineConfig({
             'Python': 'https://www.python.org',
             'SQL': 'https://www.sqlite.org',
             'SCALA': 'https://www.scala-lang.org',
-            'JavaScript': 'https://www.javascript.com', 
+            'JavaScript': 'https://www.javascript.com',
             'TypeScript': 'https://www.typescriptlang.org',
             'Markdown': 'https://www.markdownguide.org',
             'Swift': 'https://swift.org',
@@ -167,12 +162,12 @@ export default defineConfig({
             'Pyspark': 'https://spark.apache.org/docs/latest/api/python',
             'PyTorch': 'https://pytorch.org',
             'TensorFlow': 'https://www.tensorflow.org',
-            'Transformers': 'https://huggingface.co/transformers',  
+            'Transformers': 'https://huggingface.co/transformers',
             'Streamlit': 'https://streamlit.io',
             'Flask': 'https://flask.palletsprojects.com',
             'FastAPI': 'https://fastapi.tiangolo.com',
             'Vue3': 'https://vuejs.org',
-            'Remark42': 'https://github.com/umputun/remark42'
+            'Remark42': 'https://github.com/umputun/remark42',
           },
           imageOverrides: [
             ['https://github.com/vuejs/core', 'https://vuejs.org/logo.svg'],
@@ -188,21 +183,7 @@ export default defineConfig({
 
         md.use(GitHubAlerts)
       },
-      frontmatterPreprocess(frontmatter, options, id, defaults) {
-        (() => {
-          if (!id.endsWith('.md'))
-            return
-          const route = basename(id, '.md')
-          if (route === 'index' || frontmatter.image || !frontmatter.title)
-            return
-          const path = `og/${route}.png`
-          promises.push(
-            fs.existsSync(`${id.slice(0, -3)}.png`)
-              ? fs.copy(`${id.slice(0, -3)}.png`, `public/${path}`)
-              : generateOg(frontmatter.title!.trim(), `public/${path}`),
-          )
-          frontmatter.image = `https://images.zerolovesea.top/${path}`
-        })()
+      frontmatterPreprocess(frontmatter, options, _id, defaults) {
         const head = defaults(frontmatter, options)
         return { head, frontmatter }
       },
@@ -240,13 +221,6 @@ export default defineConfig({
     }),
 
     Exclude(),
-
-    {
-      name: 'await',
-      async closeBundle() {
-        await Promise.all(promises)
-      },
-    },
   ],
 
   build: {
@@ -263,10 +237,3 @@ export default defineConfig({
     dirStyle: 'nested',
   },
 })
-
-async function generateOg(title: string, output: string) {
-  if (fs.existsSync(output))
-    return
-
-  await generateOGImage({ title }, output)
-}
